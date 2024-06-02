@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+input{
+    outline: none;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.24);
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    min-height: 50vh;
+    padding: 50px;
+}
+
+.cartas{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 10px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.equipos{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+button{
+    outline: none;
+    border: none;
+    padding: 20px;
+    color: white;
+    width: 40%;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(25, 133, 255);
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: rgb(65, 154, 255);
+}
+
+.cuerpo_cartas{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.cuerpo_datos_cliente{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.cuerpo_cantidad_equipos{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 20px;
+    width: 100%;
+   
+
+}
+
+
+.acordeon_header{
+    display: flex;
+    gap: 80px;
+
+    width: 100%;
+}
+.acordion{
+    width: 100%;
+}
+
+
+.accordion-item{
+    display: none;
+}
+
